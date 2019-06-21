@@ -1,0 +1,11 @@
+C:\Users\iecle\source\repos\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.deps.json
+C:\Users\iecle\source\repos\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.runtimeconfig.json
+C:\Users\iecle\source\repos\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.runtimeconfig.dev.json
+C:\Users\iecle\source\repos\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.dll
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.csprojAssemblyReference.cache
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.csproj.CoreCompileInputs.cache
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorAssemblyInfo.cache
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorAssemblyInfo.cs
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.AssemblyInfoInputs.cache
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.AssemblyInfo.cs
+C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorTargetAssemblyInfo.cache

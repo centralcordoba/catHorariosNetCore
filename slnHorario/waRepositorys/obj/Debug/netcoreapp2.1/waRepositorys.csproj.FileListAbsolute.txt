@@ -1,0 +1,6 @@
+C:\Users\iecle\source\repos\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waRepositorys.deps.json
+C:\Users\iecle\source\repos\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waRepositorys.dll
+C:\Users\iecle\source\repos\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.csprojAssemblyReference.cache
+C:\Users\iecle\source\repos\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.csproj.CoreCompileInputs.cache
+C:\Users\iecle\source\repos\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.AssemblyInfoInputs.cache
+C:\Users\iecle\source\repos\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.AssemblyInfo.cs
