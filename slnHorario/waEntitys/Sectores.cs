@@ -6,7 +6,8 @@ namespace waEntitys
 {
     public class Sectores
     {
-        public string Nombre { get; set; }
-
+        public int codigo { get; set; }
+        public string  nombre { get; set; }
+        public string  responsable { get; set; }
     }
 }
