@@ -7,6 +7,6 @@ namespace waEntitys
     public class Turnos
     {
         public string Nombre  { get; set; }
-        public string Test8 { get; set; }
+        public string TestMJP { get; set; }
     }
 }
