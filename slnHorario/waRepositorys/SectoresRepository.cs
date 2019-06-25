@@ -50,7 +50,7 @@ namespace waRepositorys
                     db.Open();
                     param.Add("@Nombre", sectores.nombre);
                     param.Add("@Responsable", sectores.responsable);
-                    //db.Execute("sp_Altasectores", param, commandType = CommandType.StoredProcedure);
+                    ///db.Execute("sp_Altasectores", param, commandType = CommandType.StoredProcedure);
                     db.Close();
                 }
             }
