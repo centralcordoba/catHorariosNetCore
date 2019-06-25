@@ -42,5 +42,28 @@ namespace waRepositorys
             return true;
 
         }
+        public bool InsertCategoriaEmpleado(CategoriaEmpleado empleado)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@Descripcion", empleado.Descripcion);
+                    param.Add("@CantHsxTurtno", empleado.Canthoraxturno);
+                    param.Add("@CantHsFinde", empleado.Canthsfinde);
+                    db.Execute("sp_AltaCategoriaEmpleado", param, commandType: CommandType.StoredProcedure);
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return true;
+        }
+
     }
 }
