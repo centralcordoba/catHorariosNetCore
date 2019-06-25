@@ -40,5 +40,27 @@ namespace waRepositorys
             }
             return true;
         }
+        public bool AltaSector(Sectores sectores)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@Nombre", sectores.nombre);
+                    param.Add("@Responsable", sectores.responsable);
+                    //db.Execute("sp_Altasectores", param, commandType = CommandType.StoredProcedure);
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return true;
+        }
+
     }
 }
