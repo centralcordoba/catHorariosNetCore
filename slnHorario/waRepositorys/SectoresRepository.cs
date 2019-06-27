@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class SectoresRepository
     {
-        string _db="";
+        static string _db="";
         /// <summary>
         /// Creción de Código para ejecutar el procedimiento almacenado spUpdateSectores
         /// </summary>

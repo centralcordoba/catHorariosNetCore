@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class CategoriaEmpleadoRepository
     {
-        string _db = "";
+        static string _db = "";
 
         /// <summary>
         /// Creacion de código para ejecutar sp UpdateCategoriaEmpleado
@@ -19,7 +19,7 @@ namespace waRepositorys
         /// <param @CantHsxTurtno es la cantidad de horas de permanencia que debe tener el empleado en la Empresa asociado a la Categoría></param>
         /// <param @CantHsFinde es la cantidad de horas de permanencia el fin de semana que debe tener el empleado en la Empresa asociado a la Categoría></param>
         /// <returns></returns>
-        public bool UpdateCategoriaEmpleado(CategoriaEmpleado empleado)
+        public static bool UpdateCategoriaEmpleado(CategoriaEmpleado empleado)
         {
             try
             {
@@ -36,7 +36,7 @@ namespace waRepositorys
             }
             catch (Exception ex)
             {
-
+                return false;
                 throw;
             }
             return true;

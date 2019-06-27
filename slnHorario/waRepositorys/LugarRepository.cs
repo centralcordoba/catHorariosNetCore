@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class LugarRepository
     {
-        string _db = "";
+        static string _db = "";
 
         public bool InsertLugar(Lugar empleado)
         {
