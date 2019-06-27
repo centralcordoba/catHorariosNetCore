@@ -42,7 +42,7 @@ namespace waRepositorys
             return true;
 
         }
-        public bool InsertCategoriaEmpleado(CategoriaEmpleado empleado)
+        public static bool AltaCategoriaEmpleado(CategoriaEmpleado empleado)
         {
             try
             {
