@@ -475,6 +475,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "waEntitys/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/waEntitys.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/waEntitys.dll": {}
+        }
       }
     }
   },
@@ -1853,12 +1863,18 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "waEntitys/1.0.0": {
+      "type": "project",
+      "path": "../waEntitys/waEntitys.csproj",
+      "msbuildProject": "../waEntitys/waEntitys.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Dapper >= 1.60.6",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "waEntitys >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1868,11 +1884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iecle\\source\\repos\\slnHorario\\waRepositorys\\waRepositorys.csproj",
+      "projectUniqueName": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj",
       "projectName": "waRepositorys",
-      "projectPath": "C:\\Users\\iecle\\source\\repos\\slnHorario\\waRepositorys\\waRepositorys.csproj",
+      "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj",
       "packagesPath": "C:\\Users\\iecle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iecle\\source\\repos\\slnHorario\\waRepositorys\\obj\\",
+      "outputPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waRepositorys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1890,7 +1906,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj": {
+              "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,4 @@
+D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csprojAssemblyReference.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CoreCompileInputs.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfoInputs.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfo.cs

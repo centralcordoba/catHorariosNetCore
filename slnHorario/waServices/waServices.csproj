@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\waEntitys\waEntitys.csproj" />
+    <ProjectReference Include="..\waRepositorys\waRepositorys.csproj" />
+  </ItemGroup>
+
 </Project>

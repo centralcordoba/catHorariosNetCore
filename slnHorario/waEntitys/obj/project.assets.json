@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iecle\\source\\repos\\slnHorario\\waEntitys\\waEntitys.csproj",
+      "projectUniqueName": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj",
       "projectName": "waEntitys",
-      "projectPath": "C:\\Users\\iecle\\source\\repos\\slnHorario\\waEntitys\\waEntitys.csproj",
+      "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj",
       "packagesPath": "C:\\Users\\iecle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iecle\\source\\repos\\slnHorario\\waEntitys\\obj\\",
+      "outputPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

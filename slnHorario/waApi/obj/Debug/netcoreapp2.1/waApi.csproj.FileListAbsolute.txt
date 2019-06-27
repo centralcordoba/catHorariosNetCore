@@ -9,3 +9,17 @@ C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.Razor
 C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.AssemblyInfoInputs.cache
 C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.AssemblyInfo.cs
 C:\Users\iecle\source\repos\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorTargetAssemblyInfo.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.deps.json
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.runtimeconfig.json
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.runtimeconfig.dev.json
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.dll
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\bin\Debug\netcoreapp2.1\waApi.pdb
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.csprojAssemblyReference.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.csproj.CoreCompileInputs.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorAssemblyInfo.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorAssemblyInfo.cs
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.AssemblyInfoInputs.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.AssemblyInfo.cs
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.RazorTargetAssemblyInfo.cache
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.dll
+D:\CAT\RepoCAT\catHorarios\slnHorario\waApi\obj\Debug\netcoreapp2.1\waApi.pdb
