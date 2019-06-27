@@ -4,7 +4,7 @@ using System.Text;
 
 namespace waRepositorys
 {
-    class EmpleadoRepository
+    public class EmpleadoRepository
     {
     }
 }
