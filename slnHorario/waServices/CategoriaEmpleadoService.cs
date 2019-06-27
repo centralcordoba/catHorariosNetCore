@@ -20,5 +20,18 @@ namespace waServices
             
 
         }
+        public bool AltaCategoriaEmpleado(CategoriaEmpleado empleado)
+        {
+            if (waRepositorys.CategoriaEmpleadoRepository.AltaCategoriaEmpleado(empleado))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+
+        }
     }
 }
