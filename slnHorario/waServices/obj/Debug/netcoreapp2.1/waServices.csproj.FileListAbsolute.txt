@@ -2,3 +2,17 @@ D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServi
 D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CoreCompileInputs.cache
 D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfoInputs.cache
 D:\CAT\RepoCAT\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfo.cs
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waServices.deps.json
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waServices.dll
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waServices.pdb
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waEntitys.dll
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waRepositorys.dll
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waRepositorys.pdb
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csprojAssemblyReference.cache
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CoreCompileInputs.cache
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfoInputs.cache
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfo.cs
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CopyComplete
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.dll
+D:\CAT\Repo2\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.pdb

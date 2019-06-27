@@ -12667,11 +12667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waApi\\waApi.csproj",
+      "projectUniqueName": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waApi\\waApi.csproj",
       "projectName": "waApi",
-      "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waApi\\waApi.csproj",
+      "projectPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waApi\\waApi.csproj",
       "packagesPath": "C:\\Users\\iecle\\.nuget\\packages\\",
-      "outputPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waApi\\obj\\",
+      "outputPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

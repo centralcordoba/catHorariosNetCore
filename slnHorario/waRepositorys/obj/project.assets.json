@@ -1884,11 +1884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj",
+      "projectUniqueName": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj",
       "projectName": "waRepositorys",
-      "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj",
+      "projectPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj",
       "packagesPath": "C:\\Users\\iecle\\.nuget\\packages\\",
-      "outputPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waRepositorys\\obj\\",
+      "outputPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waRepositorys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1907,8 +1907,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj": {
-              "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj"
+            "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj": {
+              "projectPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj"
             }
           }
         }

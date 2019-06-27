@@ -5827,11 +5827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waTest\\waTest.csproj",
+      "projectUniqueName": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waTest\\waTest.csproj",
       "projectName": "waTest",
-      "projectPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waTest\\waTest.csproj",
+      "projectPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waTest\\waTest.csproj",
       "packagesPath": "C:\\Users\\iecle\\.nuget\\packages\\",
-      "outputPath": "D:\\CAT\\RepoCAT\\catHorarios\\slnHorario\\waTest\\obj\\",
+      "outputPath": "D:\\CAT\\Repo2\\catHorarios\\slnHorario\\waTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
