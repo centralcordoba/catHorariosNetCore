@@ -8,7 +8,7 @@ namespace waServices
     public class SectoresService
     {
 
-            public bool UpdateSector(Sectores sectores)
+            public static bool UpdateSector(Sectores sectores)
         {
                 if (waRepositorys.SectoresRepository.UpdateSector (sectores))
                 {
@@ -22,7 +22,7 @@ namespace waServices
 
         }
 
-        public bool AltaSector(Sectores sectores)
+        public static bool AltaSector(Sectores sectores)
         {
             if (waRepositorys.SectoresRepository.AltaSector(sectores))
             {

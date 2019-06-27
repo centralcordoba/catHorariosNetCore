@@ -7,7 +7,7 @@ namespace waServices
 {
     public class CategoriaEmpleadoService
     {
-        public bool UpdateCategoriaEmpleado(CategoriaEmpleado empleado)
+        public static bool UpdateCategoriaEmpleado(CategoriaEmpleado empleado)
         {
             if (waRepositorys.CategoriaEmpleadoRepository.UpdateCategoriaEmpleado(empleado))
             {
@@ -20,7 +20,7 @@ namespace waServices
             
 
         }
-        public bool AltaCategoriaEmpleado(CategoriaEmpleado empleado)
+        public static bool AltaCategoriaEmpleado(CategoriaEmpleado empleado)
         {
             if (waRepositorys.CategoriaEmpleadoRepository.AltaCategoriaEmpleado(empleado))
             {

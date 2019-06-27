@@ -18,7 +18,7 @@ namespace waRepositorys
         /// <param @nombre, es el nombre del sector></param>
         /// <param @responsable, es el reponsable del sector></param>
         /// <returns></returns>
-        public bool UpdateSector(Sectores sectores)
+        public static bool UpdateSector(Sectores sectores)
         {
             try
             {
@@ -40,7 +40,7 @@ namespace waRepositorys
             }
             return true;
         }
-        public bool AltaSector(Sectores sectores)
+        public static bool AltaSector(Sectores sectores)
         {
             try
             {
