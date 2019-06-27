@@ -25,3 +25,4 @@ D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.Assemb
 D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs
 D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.dll
 D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.pdb
+D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
