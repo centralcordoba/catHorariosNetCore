@@ -45,6 +45,15 @@ namespace waRestApi.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            try
+            {
+                
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
 
         // DELETE api/values/5
