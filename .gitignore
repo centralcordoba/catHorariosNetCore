@@ -211,3 +211,7 @@ project.lock.json
 *.feature.xlsx.*
 *.Specs_*.html
 
+slnHorario/waEntitys/obj/Debug/netcoreapp2.1/waEntitys.csproj.FileListAbsolute.txt
+slnHorario/waEntitys/obj/Debug/netcoreapp2.1/waEntitys.csprojAssemblyReference.cache
+slnHorario/waRepositorys/obj/Debug/netcoreapp2.1/waRepositorys.csprojAssemblyReference.cache
+slnHorario/waServices/obj/Debug/netcoreapp2.1/waServices.csprojAssemblyReference.cache

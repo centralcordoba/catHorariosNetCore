@@ -27,7 +27,7 @@ namespace waRestApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] Empleados empleado)
+        public void Post([FromBody] CategoriaEmpleado empleado)
         {
             waServices.CategoriaEmpleadoService.AltaCategoriaEmpleado(empleado);
         }

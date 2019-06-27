@@ -10,7 +10,6 @@ D:\CAT\RepoCAT\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntity
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.deps.json
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.dll
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.pdb
-D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csprojAssemblyReference.cache
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csproj.CoreCompileInputs.cache
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfoInputs.cache
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
