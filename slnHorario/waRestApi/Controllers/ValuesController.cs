@@ -29,7 +29,16 @@ namespace waRestApi.Controllers
         [HttpPost]
         public void Post([FromBody] CategoriaEmpleado empleado)
         {
-            waServices.CategoriaEmpleadoService.AltaCategoriaEmpleado(empleado);
+            try
+            {
+                waServices.CategoriaEmpleadoService.AltaCategoriaEmpleado(empleado);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            
         }
 
         // PUT api/values/5
