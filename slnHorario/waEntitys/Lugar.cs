@@ -7,5 +7,6 @@ namespace waEntitys
     public class Lugar
     {
         public string Descripcion { get; set; }
+        public string TestPancho{ get; set; }
     }
 }
