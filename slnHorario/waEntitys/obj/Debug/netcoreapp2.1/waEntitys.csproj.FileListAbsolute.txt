@@ -24,7 +24,6 @@ D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEnt
 D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
 D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
 D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
-
 D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.deps.json
 D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.dll
 D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.pdb
@@ -34,4 +33,12 @@ D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\obj\Debug\netcorea
 D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
 D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
 D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
-
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.deps.json
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.pdb
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csprojAssemblyReference.cache
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csproj.CoreCompileInputs.cache
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfoInputs.cache
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
