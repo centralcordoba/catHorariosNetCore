@@ -40,3 +40,17 @@ D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.A
 D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs
 D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.dll
 D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.pdb
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.deps.json
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.json
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.dev.json
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.pdb
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csproj.CoreCompileInputs.cache
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfoInputs.cache
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.dll
+D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.pdb
