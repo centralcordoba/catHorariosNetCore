@@ -40,3 +40,15 @@ D:\CATRepositorio\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\w
 D:\CATRepositorio\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.csproj.CopyComplete
 D:\CATRepositorio\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.dll
 D:\CATRepositorio\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.pdb
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waRepositorys.deps.json
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waRepositorys.dll
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waRepositorys.pdb
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waEntitys.dll
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\bin\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.csprojAssemblyReference.cache
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.csproj.CoreCompileInputs.cache
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.AssemblyInfoInputs.cache
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.AssemblyInfo.cs
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.csproj.CopyComplete
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.dll
+D:\CATPROGRAMAS\HORARIOS2019\catHorarios\slnHorario\waRepositorys\obj\Debug\netcoreapp2.1\waRepositorys.pdb

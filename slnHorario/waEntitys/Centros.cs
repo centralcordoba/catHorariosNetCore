@@ -8,5 +8,6 @@ namespace waEntitys
     {
         public string Nombre{ get; set; }
         public string TestPancho { get; set; }
+        public string TestAndres { get; set; }
     }
 }
