@@ -26,3 +26,17 @@ D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.Assemb
 D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.dll
 D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.pdb
 D:\CAT\Repo2\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.deps.json
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.json
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.dev.json
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.dll
+D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.pdb
+D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
+D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csproj.CoreCompileInputs.cache
+D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfoInputs.cache
+D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs
+D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.dll
+D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.pdb

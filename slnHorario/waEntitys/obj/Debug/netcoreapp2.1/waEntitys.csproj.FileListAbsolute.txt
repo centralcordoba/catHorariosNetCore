@@ -15,3 +15,12 @@ D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
 D:\CAT\Repo2\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.deps.json
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.dll
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csprojAssemblyReference.cache
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csproj.CoreCompileInputs.cache
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfoInputs.cache
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
+D:\CATRepositorio\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
