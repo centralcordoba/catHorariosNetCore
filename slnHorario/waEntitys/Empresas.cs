@@ -7,6 +7,7 @@ namespace waEntitys
     public class Empresas
     {
         public string Nombre { get; set; }
+        public string EmanuelTest { get; set; }
 
     }
 }
