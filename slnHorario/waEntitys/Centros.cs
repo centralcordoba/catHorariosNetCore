@@ -7,7 +7,7 @@ namespace waEntitys
     public class Centros
     {
         public string Nombre{ get; set; }
-        public string TestPancho { get; set; }
+       
         
     }
 }

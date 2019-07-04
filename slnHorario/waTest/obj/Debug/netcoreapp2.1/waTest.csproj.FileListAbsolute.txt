@@ -62,7 +62,6 @@ D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTe
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.dev.json
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.dll
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.pdb
-D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csproj.CoreCompileInputs.cache
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfoInputs.cache
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs
