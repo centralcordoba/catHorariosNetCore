@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class CategoriaEmpleadoRepository
     {
-        static string _db = "";
+        static string _db = "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;User ID=sa;Password=bfg2007;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         /// <summary>
         /// Creacion de código para ejecutar sp UpdateCategoriaEmpleado
@@ -63,6 +63,28 @@ namespace waRepositorys
                 throw;
             }
             return true;
+        }
+        public static List<CategoriaEmpleado> GetAllCategoriaEmpleado()
+        {
+            ///lstCategoriaEmpleado List<CategoriaEmpleado> new= List<CategoriaEmpleado>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                   
+                    return db.Query<CategoriaEmpleado>("sp_cncategorias", commandType: CommandType.StoredProcedure).AsList();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                
+                throw;
+            }
+            
+
         }
 
     }

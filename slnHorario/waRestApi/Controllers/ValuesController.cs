@@ -15,6 +15,8 @@ namespace waRestApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            List <CategoriaEmpleado> lstcategoriaEmpleados = new List<CategoriaEmpleado>();
+            lstcategoriaEmpleados = waServices.CategoriaEmpleadoService.GetAllCategoriaEmpleado();
             return new string[] { "value1", "value2" };
         }
 

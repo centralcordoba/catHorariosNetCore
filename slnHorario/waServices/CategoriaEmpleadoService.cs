@@ -33,5 +33,12 @@ namespace waServices
 
 
         }
+        public static List<CategoriaEmpleado> GetAllCategoriaEmpleado()
+        {
+            return (waRepositorys.CategoriaEmpleadoRepository.GetAllCategoriaEmpleado());
+            
+
+
+        }
     }
 }
