@@ -1867,23 +1867,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\possetmj.ARG\\.nuget\\packages\\": {},
+    "C:\\Users\\esquitan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waServices\\waServices.csproj",
+      "projectUniqueName": "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waServices\\waServices.csproj",
       "projectName": "waServices",
-      "projectPath": "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waServices\\waServices.csproj",
-      "packagesPath": "C:\\Users\\possetmj.ARG\\.nuget\\packages\\",
-      "outputPath": "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waServices\\obj\\",
+      "projectPath": "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waServices\\waServices.csproj",
+      "packagesPath": "C:\\Users\\esquitan\\.nuget\\packages\\",
+      "outputPath": "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\possetmj.ARG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\esquitan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1896,11 +1896,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj": {
-              "projectPath": "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj"
+            "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj": {
+              "projectPath": "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj"
             },
-            "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj": {
-              "projectPath": "D:\\MJP\\trabajos\\SLNVS\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj"
+            "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj": {
+              "projectPath": "D:\\CATPROGRAMAS\\HORARIOS2019\\catHorarios\\slnHorario\\waRepositorys\\waRepositorys.csproj"
             }
           }
         }
