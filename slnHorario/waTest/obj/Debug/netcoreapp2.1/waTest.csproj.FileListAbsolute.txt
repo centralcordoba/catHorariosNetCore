@@ -34,7 +34,6 @@ D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.r
 D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.dev.json
 D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.dll
 D:\CATRepositorio\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.pdb
-D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
 D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csproj.CoreCompileInputs.cache
 D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfoInputs.cache
 D:\CATRepositorio\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs

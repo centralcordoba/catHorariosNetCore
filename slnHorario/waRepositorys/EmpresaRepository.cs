@@ -7,7 +7,7 @@ using waEntitys;
 
 namespace waRepositorys
 {
-    public class TurnosRepository
+    public class EmpresaRepository
     {
         static string _db = "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;User ID=sa;Password=bfg2007;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
@@ -18,7 +18,7 @@ namespace waRepositorys
         /// <param @CantHsxTurtno es la cantidad de horas de permanencia que debe tener el empleado en la Empresa asociado a la Categoría></param>
         /// <param @CantHsFinde es la cantidad de horas de permanencia el fin de semana que debe tener el empleado en la Empresa asociado a la Categoría></param>
         /// <returns></returns>
-        public static bool UpdateTurnos(Turnos turnos)
+        public static bool UpdateEmpresa(Empresas empresa)
         {
             try
             {
@@ -26,15 +26,13 @@ namespace waRepositorys
                 {
                     DynamicParameters param = new DynamicParameters();
                     db.Open();
-                    param.Add("@Nombre", turnos.Nombre);
-                    param.Add("@Inicio", turnos.Inicio);
-                    param.Add("@Fin", turnos.Fin);
-                    param.Add("@Categoria", turnos.Categoria);
-                    param.Add("@Tolerancia", turnos.Tolerancia);
-                    param.Add("@InicioF", turnos.InicioF);
-                    param.Add("@FinF", turnos.FinF);
-                    param.Add("@Idturno", turnos.idturno);
-                    db.Execute("sp_UpdateTurnos", param, commandType: CommandType.StoredProcedure);
+                    param.Add("@nombre", empresa.Nombre);
+                    param.Add("@telefono", empresa.Telefono);
+                    param.Add("@domicilio", empresa.Domicilio);
+                    param.Add("@email", empresa.Email);
+                    param.Add("@contacto", empresa.Contacto);
+                    param.Add("@provincia", empresa.Provincia);
+                    db.Execute("sp_UpdateEmpresa", param, commandType: CommandType.StoredProcedure);
                     db.Close();
                 }
             }
@@ -46,7 +44,7 @@ namespace waRepositorys
             return true;
 
         }
-        public static bool Altaturnos(Turnos turnos)
+        public static bool AltaEmpresa(Empresas empresa)
         {
             try
             {
@@ -54,14 +52,14 @@ namespace waRepositorys
                 {
                     DynamicParameters param = new DynamicParameters();
                     db.Open();
-                    param.Add("@nombre", turnos.Nombre);
-                    param.Add("@Inicio", turnos.Inicio);
-                    param.Add("@Fin", turnos.Fin);
-                    param.Add("@Categoria", turnos.Categoria);
-                    param.Add("@Tolerancia", turnos.Tolerancia);
-                    param.Add("@InicioF", turnos.InicioF);
-                    param.Add("@Finf", turnos.FinF);
-                    db.Execute("sp_Altaturnos", param, commandType: CommandType.StoredProcedure);
+                    param.Add("@codigo", empresa.Codigo);
+                    param.Add("@nombre", empresa.Nombre);
+                    param.Add("@telefono", empresa.Telefono);
+                    param.Add("@domicilio", empresa.Domicilio);
+                    param.Add("@email", empresa.Email);
+                    param.Add("@contacto", empresa.Contacto);
+                    param.Add("@provincia", empresa.Provincia);
+                    db.Execute("sp_AltaEmpresa", param, commandType: CommandType.StoredProcedure);
                     db.Close();
                 }
             }
@@ -72,7 +70,7 @@ namespace waRepositorys
             }
             return true;
         }
-        public static List<Turnos> GetAllturnos()
+        public static List<Empresas> GetAllempresa()
         {
             ///lstCategoriaEmpleado List<CategoriaEmpleado> new= List<CategoriaEmpleado>();
             try
@@ -82,7 +80,7 @@ namespace waRepositorys
                     DynamicParameters param = new DynamicParameters();
                     db.Open();
 
-                    return db.Query<Turnos>("sp_ListarTurnos", commandType: CommandType.StoredProcedure).AsList();
+                    return db.Query<Empresas>("sp_ListarEmpresa", commandType: CommandType.StoredProcedure).AsList();
                     db.Close();
                 }
             }
