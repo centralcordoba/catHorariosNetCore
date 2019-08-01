@@ -15,6 +15,6 @@ namespace waEntitys
         public string InicioF { get; set; }
         public string FinF { get; set; }
         public string Estado { get; set; }
-        public int Idturno { get; set; }
+        
     }
 }

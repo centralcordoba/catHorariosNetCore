@@ -7,6 +7,7 @@ namespace waEntitys
     public class Lugar
     {
         public string Descripcion { get; set; }
-        
-    }
+		public int CodLugar  { get; set; }
+
+	}
 }

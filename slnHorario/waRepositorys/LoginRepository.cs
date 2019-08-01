@@ -30,7 +30,7 @@ namespace waRepositorys
 					param.Add("@clave", login.clave);
 					param.Add("@usuario", login.usuario);
 					param.Add("@centro", login.centro);
-					db.Execute("sp_UpdateCategoriaEmpleado", param, commandType: CommandType.StoredProcedure);
+					db.Execute("", param, commandType: CommandType.StoredProcedure);
 					db.Close();
 				}
 			}
@@ -53,7 +53,7 @@ namespace waRepositorys
 					DynamicParameters param = new DynamicParameters();
 					db.Open();
 
-					return db.Query<Login>("sp_cncategorias", commandType: CommandType.StoredProcedure).AsList();
+					return db.Query<Login>("", commandType: CommandType.StoredProcedure).AsList();
 					db.Close();
 				}
 			}
