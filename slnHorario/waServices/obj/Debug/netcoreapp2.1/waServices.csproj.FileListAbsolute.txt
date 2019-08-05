@@ -58,3 +58,17 @@ D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CopyComplete
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.dll
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waServices.deps.json
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waServices.dll
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waServices.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waEntitys.dll
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waRepositorys.dll
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\bin\Debug\netcoreapp2.1\waRepositorys.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csprojAssemblyReference.cache
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CoreCompileInputs.cache
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfoInputs.cache
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.AssemblyInfo.cs
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.csproj.CopyComplete
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.dll
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waServices\obj\Debug\netcoreapp2.1\waServices.pdb

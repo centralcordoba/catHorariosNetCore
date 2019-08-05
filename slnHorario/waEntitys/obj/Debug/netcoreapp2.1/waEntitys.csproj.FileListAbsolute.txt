@@ -40,3 +40,12 @@ D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\w
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
 D:\MJP\trabajos\SLNVS\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.deps.json
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.dll
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\bin\Debug\netcoreapp2.1\waEntitys.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csprojAssemblyReference.cache
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.csproj.CoreCompileInputs.cache
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfoInputs.cache
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.AssemblyInfo.cs
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.dll
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waEntitys\obj\Debug\netcoreapp2.1\waEntitys.pdb
