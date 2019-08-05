@@ -7,10 +7,7 @@ namespace waServices
 {
     public class SectoresService
     {
-        public static List<Sectores> GetAllSectores()
-        {
-           return waRepositorys.SectoresRepository.GetAllSectores();
-        }
+        
 
 
         public static bool UpdateSector(Sectores sectores)
