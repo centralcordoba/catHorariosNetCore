@@ -687,23 +687,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ramirefe\\.nuget\\packages\\": {},
+    "C:\\Users\\esquitan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CATRepositorio\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj",
+      "projectUniqueName": "D:\\CATPROGRAMAS\\HORARIOSCAT2019NUEVO\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj",
       "projectName": "waEntitys",
-      "projectPath": "D:\\CATRepositorio\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj",
-      "packagesPath": "C:\\Users\\ramirefe\\.nuget\\packages\\",
-      "outputPath": "D:\\CATRepositorio\\catHorarios\\slnHorario\\waEntitys\\obj\\",
+      "projectPath": "D:\\CATPROGRAMAS\\HORARIOSCAT2019NUEVO\\catHorarios\\slnHorario\\waEntitys\\waEntitys.csproj",
+      "packagesPath": "C:\\Users\\esquitan\\.nuget\\packages\\",
+      "outputPath": "D:\\CATPROGRAMAS\\HORARIOSCAT2019NUEVO\\catHorarios\\slnHorario\\waEntitys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ramirefe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\esquitan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
