@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using waEntitys;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,9 +14,18 @@ namespace waRestApi.Controllers
     {
         // GET: api/<controller>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<Lugar> Get()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                List<Lugar> lstLugares = new List<Lugar>();
+                return lstLugares = waServices.LugarService.GetAllLugar();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
 
         // GET api/<controller>/5
