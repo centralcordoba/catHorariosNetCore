@@ -7,19 +7,22 @@ namespace waServices
 {
     public class SectoresService
     {
-
-            public static bool UpdateSector(Sectores sectores)
+        public static List<Sectores> GetAllSectores()
         {
-                if (waRepositorys.SectoresRepository.UpdateSector (sectores))
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+           return waRepositorys.SectoresRepository.GetAllSectores();
+        }
 
 
+        public static bool UpdateSector(Sectores sectores)
+        {
+            if (waRepositorys.SectoresRepository.UpdateSector(sectores))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public static bool AltaSector(Sectores sectores)
