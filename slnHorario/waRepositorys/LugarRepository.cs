@@ -12,7 +12,7 @@ namespace waRepositorys
     {
         static string _db = "";
 
-        public bool InsertLugar(Lugar empleado)
+        public static bool InsertLugar(Lugar empleado)
         {
             try
             {
@@ -31,6 +31,52 @@ namespace waRepositorys
                 throw;
             }
             return true;
+        }
+
+        public static List<Lugar> GetAllLugar()
+        {
+            ///lstLugar List<Lugar> new= List<Lugar>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+
+                    return db.Query<Lugar>("sp_cnlugares", commandType: CommandType.StoredProcedure).AsList();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }
+
+        public static bool UpdateLugar(Lugar lugar)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@Descripcion", lugar.Descripcion);
+                    param.Add("@CodLugar", lugar.CodLugar);
+                    db.Execute("sp_UpdateLugar", param, commandType: CommandType.StoredProcedure);
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+                throw;
+            }
+            return true;
+
         }
     }
 }
