@@ -132,16 +132,16 @@ namespace waRepositorys
             }
             return true;
         }
-        public static List<Empleados> GetAllEmpleado(int Legajo)
+        public static List<Empleados> GetAllEmpleado()
         {
             ///lstEmpleados List<Empleados> new= List<Empleados>();
             try
             {
                 using (IDbConnection db = new SqlConnection(_db))
                 {
-                    DynamicParameters param = new DynamicParameters();
+                   
                     db.Open();
-                    param.Add("@legajo", Legajo);
+                    
                     return db.Query<Empleados>("sp_cnEmpleados", commandType: CommandType.StoredProcedure).AsList();
                     db.Close();
                 }

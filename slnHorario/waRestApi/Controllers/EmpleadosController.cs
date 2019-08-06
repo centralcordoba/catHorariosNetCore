@@ -10,16 +10,16 @@ using waEntitys;
 namespace waRestApi.Controllers
 {
     [Route("api/[controller]")]
-    public class CentrosController : Controller
+    public class EmpleadosController : Controller
     {
         // GET: api/<controller>
         [HttpGet]
-        public List<Centros> Get()
+        public List<Empleados> Get()
         {
             try
             {
-                List<Centros> lstCentros = new List<Centros>();
-                return lstCentros = waServices.CentrosService.GetAllCentros();
+                List<Empleados> lstEmpleados = new List<Empleados>();
+                return lstEmpleados = waServices.EmpleadoServices.GetAllEmpleado();
             }
             catch (Exception ex)
             {
@@ -27,6 +27,7 @@ namespace waRestApi.Controllers
                 throw;
             }
         }
+
 
         // GET api/<controller>/5
         [HttpGet("{id}")]

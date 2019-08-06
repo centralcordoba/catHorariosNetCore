@@ -33,9 +33,9 @@ namespace waServices
 
 
         }
-        public static List<Empleados> GetAllEmpleado(int Legajo)
+        public static List<Empleados> GetAllEmpleado()
         {
-            return (waRepositorys.EmpleadoRepository.GetAllEmpleado(Legajo));
+            return (waRepositorys.EmpleadoRepository.GetAllEmpleado());
 
 
 
