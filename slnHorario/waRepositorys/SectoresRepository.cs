@@ -61,6 +61,28 @@ namespace waRepositorys
             }
             return true;
         }
+        public static List<Sectores> GetAllSectores()
+        {
+            ///lstCategoriaEmpleado List<CategoriaEmpleado> new= List<CategoriaEmpleado>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+
+                    return db.Query<Sectores>("sp_cnsectores", commandType: CommandType.StoredProcedure).AsList();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }
 
     }
 }

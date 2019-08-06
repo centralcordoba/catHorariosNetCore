@@ -35,6 +35,13 @@ namespace waServices
 
 
         }
+        public static List<Sectores> GetAllSectores()
+        {
+            return (waRepositorys.SectoresRepository.GetAllSectores());
+
+
+
+        }
 
     }
 }
