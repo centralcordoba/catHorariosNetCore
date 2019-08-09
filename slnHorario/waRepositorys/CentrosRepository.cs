@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class CentrosRepository
     {
-        static string _db = "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;User ID=sa;Password=bfg2007;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        static string _db = "Data Source=DESKTOP-S1UKRBH\\SQLEXPRESS;Initial Catalog=HorariosPrueba;Integrated Security=True";
 
         /// <summary>
         /// Creacion de código para ejecutar sp UpdateCategoriaEmpleado

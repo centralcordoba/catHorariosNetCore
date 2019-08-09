@@ -15,11 +15,13 @@ namespace waRestApi.Controllers
         // GET: api/<controller>
         [HttpGet]
         public List<Centros> Get()
+
         {
             try
             {
                 List<Centros> lstCentros = new List<Centros>();
-                return lstCentros = waServices.CentrosService.GetAllCentros();
+                lstCentros = waServices.CentrosService.GetAllCentros();
+                return lstCentros;
             }
             catch (Exception ex)
             {
