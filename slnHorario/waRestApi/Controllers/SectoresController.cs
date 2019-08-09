@@ -19,7 +19,8 @@ namespace waRestApi.Controllers
             try
             {
                 List<Sectores> lstSectores = new List<Sectores>();
-                return lstSectores = waServices.SectoresService.GetAllSectores();
+                 lstSectores = waServices.SectoresService.GetAllSectores();
+                return lstSectores;
             }
             catch (Exception ex)
             {

@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class LugarRepository
     {
-        static string _db = "";
+        static string _db = "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;Integrated Security=True";
 
         public static bool InsertLugar(Lugar empleado)
         {
