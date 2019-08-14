@@ -19,8 +19,10 @@ namespace waRestApi.Controllers
 			try
 			{
 				List<Turnos> lstTurnos = new List<Turnos>();
-				return lstTurnos = waServices.TurnosService.GetAllTurnos();
-			}
+				lstTurnos = waServices.TurnosService.GetAllTurnos();
+                return lstTurnos;
+
+            }
 			catch (Exception ex)
 
 			{
