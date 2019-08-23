@@ -20,7 +20,10 @@ namespace waRestApi.Controllers
 			try
 			{
 				List<Empresas> lstEmpresas = new List<Empresas>();
-				return lstEmpresas = waServices.EmpresasService.GetAllempresa();
+				lstEmpresas = waServices.EmpresasService.GetAllempresa();
+				return lstEmpresas;
+
+
 			}
 			catch (Exception ex)
 			{

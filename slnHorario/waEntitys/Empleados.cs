@@ -6,7 +6,7 @@ namespace waEntitys
 {
     public class Empleados
     {
-        public string Legajo { get; set; }
+        public string legajo { get; set; }
         public string Nombre { get; set; }
         public int Sector { get; set;}
         public int Centro { get; set; }
