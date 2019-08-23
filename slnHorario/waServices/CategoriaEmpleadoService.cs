@@ -40,5 +40,14 @@ namespace waServices
 
 
         }
+
+        public static CategoriaEmpleado GetCategoriaEmpleado(int idcatemp)
+        {
+            return (waRepositorys.CategoriaEmpleadoRepository.GetCategoriaEmpleado(idcatemp));
+
+
+
+        }
+
     }
 }

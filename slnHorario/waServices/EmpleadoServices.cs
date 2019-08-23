@@ -40,6 +40,14 @@ namespace waServices
 
 
         }
+
+        public static Empleados GetEmpleadoAutorizado(int legajo)
+        {
+            return (waRepositorys.EmpleadoRepository.GetEmpleadoAutorizado(legajo));
+
+
+
+        }
     }
 }
 

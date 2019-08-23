@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Text;
 using Dapper;
 using waEntitys;
+using System.Linq;
 
 namespace waRepositorys
 {
@@ -74,7 +75,7 @@ namespace waRepositorys
                     DynamicParameters param = new DynamicParameters();
                     db.Open();
                    
-                    return db.Query<CategoriaEmpleado>("sp_cncategorias", commandType: CommandType.StoredProcedure).AsList();
+                    return db.Query<CategoriaEmpleado>("sp_cncategoriaempleado", commandType: CommandType.StoredProcedure).AsList();
                     db.Close();
                 }
             }
@@ -84,6 +85,30 @@ namespace waRepositorys
                 throw;
             }
             
+
+        }
+        public static CategoriaEmpleado GetCategoriaEmpleado(int idcatemp)
+        {
+            ///lstEmpleados List<Empleados> new= List<Empleados>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@idcatemp", idcatemp);
+
+                    return db.Query<CategoriaEmpleado>("sp_cncategorias", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
 
         }
 

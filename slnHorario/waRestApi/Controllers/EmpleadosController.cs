@@ -28,6 +28,40 @@ namespace waRestApi.Controllers
             }
         }
 
+        public Empleados GetEmpleadoAutorizado(int legajo)
+        {
+            try
+            {
+                Empleados empleado = new Empleados();
+                empleado = waServices.EmpleadoServices.GetEmpleadoAutorizado(legajo);
+                if (empleado != null)
+                {
+                    if (empleado.Estado != "B")
+                    {
+                        CategoriaEmpleado categoriaempleado = new CategoriaEmpleado();
+                        categoriaempleado = waServices.CategoriaEmpleadoService.GetCategoriaEmpleado(empleado.Categoria);
+                        if (categoriaempleado != null)
+                        {
+                            decimal canthsxturno = categoriaempleado.Canthoraxturno;
+                            if ( categoriaempleado.Canthsfinde != 0)
+                            {
+                                decimal canthsxturnofinde = categoriaempleado.Canthsfinde;
+                            }
+                        
+
+                        }
+                    }
+                }
+                return empleado = waServices.EmpleadoServices.GetEmpleadoAutorizado(legajo);
+               
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
 
         // GET api/<controller>/5
         [HttpGet("{id}")]
