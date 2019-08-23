@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 using waEntitys;
+using System.Linq;
 
 namespace waRepositorys
 {
@@ -143,6 +144,31 @@ namespace waRepositorys
                     db.Open();
                     
                     return db.Query<Empleados>("sp_cnEmpleadostodos", commandType: CommandType.StoredProcedure).AsList();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }
+
+        public static Empleados GetEmpleadoAutorizado(int legajo)
+        {
+            ///lstEmpleados List<Empleados> new= List<Empleados>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@legajo", legajo);
+
+                    return db.Query<Empleados>("sp_cnEmpleados", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
                     db.Close();
                 }
             }
