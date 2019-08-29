@@ -75,9 +75,9 @@ D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\bin\Debug\net
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.runtimeconfig.dev.json
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.dll
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\bin\Debug\netcoreapp2.1\waTest.pdb
-D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csproj.CoreCompileInputs.cache
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfoInputs.cache
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.AssemblyInfo.cs
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.dll
 D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.pdb
+D:\CATPROGRAMAS\HORARIOSCAT2019NUEVO\catHorarios\slnHorario\waTest\obj\Debug\netcoreapp2.1\waTest.csprojAssemblyReference.cache

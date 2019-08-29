@@ -10,7 +10,7 @@ namespace waRepositorys
 {
     public class SectoresRepository
     {
-        static string _db= "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;Integrated Security=True";
+        static string _db= "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;User ID=sa;Password=bfg2007;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         /// <summary>
         /// Creción de Código para ejecutar el procedimiento almacenado spUpdateSectores
         /// </summary>

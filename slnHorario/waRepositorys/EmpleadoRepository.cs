@@ -20,7 +20,7 @@ namespace waRepositorys
                 {
                     DynamicParameters param = new DynamicParameters();
                     db.Open();
-                    param.Add("@legajo", empleado.Legajo);
+                    param.Add("@legajo", empleado.legajo);
                     param.Add("@nombre", empleado.Nombre);
                     param.Add("@sector", empleado.Sector);
                     param.Add("@centro", empleado.Centro);
@@ -81,7 +81,7 @@ namespace waRepositorys
                 {
                     DynamicParameters param = new DynamicParameters();
                     db.Open();
-                    param.Add("@legajo", empleado.Legajo);
+                    param.Add("@legajo", empleado.legajo);
                     param.Add("@nombre", empleado.Nombre);
                     param.Add("@sector", empleado.Sector);
                     param.Add("@centro", empleado.Centro);
@@ -143,7 +143,7 @@ namespace waRepositorys
                    
                     db.Open();
                     
-                    return db.Query<Empleados>("sp_cnEmpleados", commandType: CommandType.StoredProcedure).AsList();
+                    return db.Query<Empleados>("sp_cnEmpleadostodos", commandType: CommandType.StoredProcedure).AsList();
                     db.Close();
                 }
             }
