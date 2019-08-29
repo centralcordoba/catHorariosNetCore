@@ -12,6 +12,15 @@ namespace waRestApi.Controllers
     [Route("api/[controller]")]
     public class EmpleadosController : Controller
     {
+        int legemp = 0;
+        int emp = 0;
+        int catemp = 0;
+        int tur = 0;
+        int cent = 0;
+        string nomb = "";
+        string bajc = "";
+        DateTime dd;
+
         // GET: api/<controller>
         [HttpGet]
         public List<Empleados> Get()
@@ -30,9 +39,10 @@ namespace waRestApi.Controllers
 
         public Empleados GetEmpleadoAutorizado(int legajo)
         {
+            Empleados empleado = new Empleados();
             try
             {
-                Empleados empleado = new Empleados();
+                
                 empleado = waServices.EmpleadoServices.GetEmpleadoAutorizado(legajo);
                 if (empleado != null)
                 {
@@ -47,8 +57,13 @@ namespace waRestApi.Controllers
                             {
                                 decimal canthsxturnofinde = categoriaempleado.Canthsfinde;
                             }
-                        
 
+                            Empleados empleadoturno = new Empleados();
+                            empleadoturno = waServices.EmpleadoServices.GetEmpleadoTurno(legajo,dd);
+                        }
+                        else
+                        {
+                            empleado.Mensaje = "Empleado dado de baja, no está autorizado el ingreso";
                         }
                     }
                 }
@@ -57,7 +72,7 @@ namespace waRestApi.Controllers
             }
             catch (Exception ex)
             {
-
+                empleado.MensajeError = ex.ToString();
                 throw;
             }
         }

@@ -47,5 +47,7 @@ namespace waEntitys
         public string InformAutoelev { get; set; }
         public string InformaAusentismo { get; set; }
         public int Categoria { get; set; }
+        public string Mensaje { get; set; }
+        public string MensajeError { get; set; }
     }
 }

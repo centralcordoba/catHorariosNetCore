@@ -48,6 +48,14 @@ namespace waServices
 
 
         }
+
+        public static Empleados GetEmpleadoTurno(int legajo, DateTime dd)
+        {
+            return (waRepositorys.EmpleadoRepository.GetEmpleadoTurno(legajo,dd));
+
+
+
+        }
     }
 }
 
