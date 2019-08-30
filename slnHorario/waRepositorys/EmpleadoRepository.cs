@@ -207,6 +207,32 @@ namespace waRepositorys
 
         }
 
+        public static Turnos GetTurnoEmpleado(int idturno)
+        {
+            ///lstEmpleados List<Empleados> new= List<Empleados>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@idturno", idturno);
+                   
+
+                    return db.Query<Turnos>("sp_cnTurnosIndividual", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }
+
     }
 }
 
