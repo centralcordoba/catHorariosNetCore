@@ -233,6 +233,32 @@ namespace waRepositorys
 
         }
 
+        public static Empleados GetEmpleadoSalida(int legajo, DateTime dd)
+        {
+            ///lstEmpleados List<Empleados> new= List<Empleados>();
+            try
+            {
+                using (IDbConnection db = new SqlConnection(_db))
+                {
+
+                    DynamicParameters param = new DynamicParameters();
+                    db.Open();
+                    param.Add("@legajo", legajo);
+                    param.Add("@dd", dd);
+
+                    return db.Query<Empleados>("sp_controlsalida", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    db.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }
+
     }
 }
 
