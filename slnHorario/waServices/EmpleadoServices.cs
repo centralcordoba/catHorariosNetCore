@@ -65,7 +65,7 @@ namespace waServices
 
         }
 
-        public static Empleados GetEmpleadoSalida(int legajo, DateTime dd)
+        public static RegistroEntrada GetEmpleadoSalida(int legajo, DateTime dd)
         {
             return (waRepositorys.EmpleadoRepository.GetEmpleadoSalida(legajo, dd));
 

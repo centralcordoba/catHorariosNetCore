@@ -233,7 +233,7 @@ namespace waRepositorys
 
         }
 
-        public static Empleados GetEmpleadoSalida(int legajo, DateTime dd)
+        public static RegistroEntrada GetEmpleadoSalida(int legajo, DateTime dd)
         {
             ///lstEmpleados List<Empleados> new= List<Empleados>();
             try
@@ -246,7 +246,7 @@ namespace waRepositorys
                     param.Add("@legajo", legajo);
                     param.Add("@dd", dd);
 
-                    return db.Query<Empleados>("sp_controlsalida", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    return db.Query<RegistroEntrada>("sp_controlsalida", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
                     db.Close();
                 }
             }
