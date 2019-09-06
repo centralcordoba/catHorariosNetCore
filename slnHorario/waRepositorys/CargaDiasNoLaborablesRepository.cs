@@ -14,12 +14,12 @@ namespace waRepositorys
 	{
 		static string _db = "Data Source=ARGSQL03;Initial Catalog=HorariosPrueba;Integrated Security=True";
 
-		public static bool UpdateCargaDiasNoLaborables(global::waServices.CargaDiasNoLaborables cargadiasnolaborables)
+		public static bool UpdateCargaDiasNoLaborables()
 		{
 			throw new NotImplementedException();
 		}
 
-		public static bool AltaCargaDiasNoLaborables(global::waServices.CargaDiasNoLaborables cargadiasnolaborables)
+		public static bool AltaCargaDiasNoLaborables()
 		{
 			throw new NotImplementedException();
 		}
@@ -31,7 +31,7 @@ namespace waRepositorys
 		/// <param @descrip></param>
 
 		/// <returns></returns>
-		public static bool UpdateCargaDiasNoLaborables(CargaDiasNoLaborables cargadiasnolaborables)
+		public static bool UpdateCargaDiasNoLaborables(DiasNoLaborables cargadiasnolaborables)
 		{
 			try
 			{
@@ -54,7 +54,7 @@ namespace waRepositorys
 			return true;
 
 		}
-		public static bool AltaCargaDiasNoLaborables(CargaDiasNoLaborables cargadiasnolaborables)
+		public static bool AltaCargaDiasNoLaborables(DiasNoLaborables cargadiasnolaborables)
 		{
 			try
 			{
@@ -76,7 +76,7 @@ namespace waRepositorys
 			}
 			return true;
 		}
-		public static List<CargaDiasNoLaborables> GetAllCargaDiasNoLaborables()
+		public static List<DiasNoLaborables> GetAllCargaDiasNoLaborables()
 		{
 			///lstCargaDiasNoLaborables List<CargaDiasNoLaborables> new= List<CCargaDiasNoLaborables>();
 			try
@@ -86,7 +86,7 @@ namespace waRepositorys
 					DynamicParameters param = new DynamicParameters();
 					db.Open();
 
-					return db.Query<CargaDiasNoLaborables>("", commandType: CommandType.StoredProcedure).AsList();
+					return db.Query<DiasNoLaborables>("", commandType: CommandType.StoredProcedure).AsList();
 					db.Close();
 				}
 			}
@@ -98,7 +98,7 @@ namespace waRepositorys
 
 
 		}
-		public static CargaDiasNoLaborables GetCargaDiasNoLaborables(int idcatemp)
+		public static DiasNoLaborables GetCargaDiasNoLaborables(int idcatemp)
 		{
 			///lstEmpleados List<Empleados> new= List<Empleados>();
 			try
@@ -110,7 +110,7 @@ namespace waRepositorys
 					db.Open();
 					param.Add("@idcatemp", idcatemp);
 
-					return db.Query<CargaDiasNoLaborables>("", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
+					return db.Query<DiasNoLaborables>("", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
 					db.Close();
 				}
 			}

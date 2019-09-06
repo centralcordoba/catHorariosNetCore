@@ -9,7 +9,7 @@ namespace waServices
 	{
 
 
-		public static bool UpdateCargaDiasNoLaborables(CargaDiasNoLaborables cargadiasnolaborables)
+		public static bool UpdateCargaDiasNoLaborables(DiasNoLaborables cargadiasnolaborables)
 		{
 			if (waRepositorys.CargaDiasNoLaborablesRepository.UpdateCargaDiasNoLaborables(cargadiasnolaborables))
 			{
@@ -22,7 +22,7 @@ namespace waServices
 
 
 		}
-		public static bool AltaCargaDiasNoLaborables(CargaDiasNoLaborables cargadiasnolaborables)
+		public static bool AltaCargaDiasNoLaborables(DiasNoLaborables cargadiasnolaborables)
 		{
 			if (waRepositorys.CargaDiasNoLaborablesRepository.AltaCargaDiasNoLaborables(cargadiasnolaborables))
 			{
@@ -35,22 +35,17 @@ namespace waServices
 
 
 		}
-		public static List<CargaDiasNoLaborables> GetAllCargaDiasNoLaborables()
+		public static List<DiasNoLaborables> GetAllCargaDiasNoLaborables()
 		{
-			return (waRepositorys.CargaDiasNoLaborablesRepository.GetAllCargadiasNoLaborables());
+			return (waRepositorys.CargaDiasNoLaborablesRepository.GetAllCargaDiasNoLaborables());
 
 
 
-		}
-
-		public static CargaDiasNoLaborables GetCargaDiasNoLaborables(int idcatemp)
-		{
-			return (waRepositorys.CargaDiasNoLaborablesRepository.GetCargaDiasNoLaborables(idcatemp));
-
+		}	
 
 
 		}
 
 	}
-}
+
 

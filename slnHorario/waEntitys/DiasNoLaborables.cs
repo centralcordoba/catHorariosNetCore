@@ -4,7 +4,7 @@ using System.Text;
 
 namespace waEntitys
 {
-	public class CargaDiasNoLaborables
+	public class DiasNoLaborables
 			{
 		public DateTime fecha { get; set; }
 
