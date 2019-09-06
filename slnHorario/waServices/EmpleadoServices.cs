@@ -56,6 +56,22 @@ namespace waServices
 
 
         }
+
+        public static Turnos GetTurnoEmpleado(int idturno)
+        {
+            return (waRepositorys.EmpleadoRepository.GetTurnoEmpleado(idturno));
+
+
+
+        }
+
+        public static RegistroEntrada GetEmpleadoSalida(int legajo, DateTime dd)
+        {
+            return (waRepositorys.EmpleadoRepository.GetEmpleadoSalida(legajo, dd));
+
+
+
+        }
     }
 }
 

@@ -60,6 +60,19 @@ namespace waRestApi.Controllers
 
                             Empleados empleadoturno = new Empleados();
                             empleadoturno = waServices.EmpleadoServices.GetEmpleadoTurno(legajo,dd);
+
+                            Turnos turnoempleado = new Turnos();
+                            turnoempleado= waServices.EmpleadoServices.GetTurnoEmpleado(empleadoturno.Turno);
+                            if (turnoempleado.idturno != 0)
+                            {
+                                string tinicio = turnoempleado.Inicio;
+                                string tfin = turnoempleado.Fin;
+                            }
+                            else
+                            {
+                                string tinicio = "00:00:00";
+                                string tfin = "00:00:00";
+                            }
                         }
                         else
                         {
