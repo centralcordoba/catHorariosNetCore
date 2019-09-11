@@ -42,10 +42,37 @@ namespace waServices
 
 
 		}	
+			   	
+
+	//public static DiasNoLaborables GetEmpleadoTurno(int legajo, DateTime dd)
+	//{
+	//	return (waRepositorys.CargaDiasNoLaborablesRepository.GetCargaDiasNoLaborables( dd));
 
 
-		}
+
+	//}
+
+
+		
+	//	public static Turnos GetTurnoEmpleado(int idturno)
+	//{
+	//	return (waRepositorys.CargaDiasNoLaborablesRepository.GetTurnoEmpleado(idturno));
+
+
+
+	//}
+
+	public static RegistroEntrada GetEmpleadoSalida(int legajo, DateTime dd)
+	{
+		return (waRepositorys.EmpleadoRepository.GetEmpleadoSalida(legajo, dd));
+
+
 
 	}
+}
+}
+
+
+	
 
 

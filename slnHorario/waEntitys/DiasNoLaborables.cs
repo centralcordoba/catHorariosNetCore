@@ -6,9 +6,13 @@ namespace waEntitys
 {
 	public class DiasNoLaborables
 			{
-		public DateTime fecha { get; set; }
+		public DateTime Fecha { get; set; }
 
-		public string descrip { get; set; }
+		public string Descrip { get; set; }
+
+		public string Alcance { get; set; }
+
+
 
 
 	}

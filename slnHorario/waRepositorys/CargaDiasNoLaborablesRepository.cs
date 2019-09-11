@@ -39,10 +39,11 @@ namespace waRepositorys
 				{
 					DynamicParameters param = new DynamicParameters();
 					db.Open();
-					param.Add("@fecha", cargadiasnolaborables.fecha);
-					param.Add("@descrip", cargadiasnolaborables.descrip);
-				
-					db.Execute("", param, commandType: CommandType.StoredProcedure);
+					param.Add("@fecha", cargadiasnolaborables.Fecha);
+					param.Add("@descrip", cargadiasnolaborables.Descrip);
+					param.Add("@Alcance", cargadiasnolaborables.Alcance);
+
+					db.Execute("sp_UpdateDiasNoLaborables", param, commandType: CommandType.StoredProcedure);
 					db.Close();
 				}
 			}
@@ -62,10 +63,11 @@ namespace waRepositorys
 				{
 					DynamicParameters param = new DynamicParameters();
 					db.Open();
-					param.Add("@fecha", cargadiasnolaborables.fecha);
-					param.Add("@descrip", cargadiasnolaborables.descrip);
-					
-					db.Execute("", param, commandType: CommandType.StoredProcedure);
+					param.Add("@fecha", cargadiasnolaborables.Fecha);
+					param.Add("@descrip", cargadiasnolaborables.Descrip);
+					param.Add("@Alcance", cargadiasnolaborables.Alcance);
+
+					db.Execute("sp_UpdateDiasNoLaborables", param, commandType: CommandType.StoredProcedure);
 					db.Close();
 				}
 			}
@@ -86,7 +88,7 @@ namespace waRepositorys
 					DynamicParameters param = new DynamicParameters();
 					db.Open();
 
-					return db.Query<DiasNoLaborables>("", commandType: CommandType.StoredProcedure).AsList();
+					return db.Query<DiasNoLaborables>("sp_UpdateDiasNoLaborables", commandType: CommandType.StoredProcedure).AsList();
 					db.Close();
 				}
 			}
@@ -98,7 +100,7 @@ namespace waRepositorys
 
 
 		}
-		public static DiasNoLaborables GetCargaDiasNoLaborables(int idcatemp)
+		public static DiasNoLaborables GetCargaDiasNoLaborables(DiasNoLaborables dia)
 		{
 			///lstEmpleados List<Empleados> new= List<Empleados>();
 			try
@@ -108,9 +110,11 @@ namespace waRepositorys
 
 					DynamicParameters param = new DynamicParameters();
 					db.Open();
-					param.Add("@idcatemp", idcatemp);
+					param.Add("@descripcion", dia.Descrip);
+					param.Add("@fecha", dia.Fecha);
+					param.Add("@alcance", dia.Alcance);
 
-					return db.Query<DiasNoLaborables>("", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
+					return db.Query<DiasNoLaborables>("sp_UpdateDiasNoLaborables", param, commandType: CommandType.StoredProcedure).FirstOrDefault();
 					db.Close();
 				}
 			}

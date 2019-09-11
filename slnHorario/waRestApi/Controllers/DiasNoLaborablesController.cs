@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using waEntitys;
 
 namespace waRestApi.Controllers
 {
@@ -11,12 +12,35 @@ namespace waRestApi.Controllers
     [ApiController]
     public class DiasNoLaborablesController : ControllerBase
     {
+
+
+
+
+
+
         // GET: api/DiasNoLaborables
         [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+		public string UpdatediasNoLaborables(DiasNoLaborables diasNoLaborables)
+		{
+			bool respuesta;
+			try			
+			{
+				 respuesta = waServices.CargaDiasNoLaborables.UpdateCargaDiasNoLaborables(diasNoLaborables);
+				
+				
+
+			}
+			catch (Exception ex)
+			{
+
+				throw;
+			}
+			return "OK";
+		}
+
+			   		 	  	  	 
+		
+
 
         // GET: api/DiasNoLaborables/5
         [HttpGet("{id}", Name = "Get")]
